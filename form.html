@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <h6>Appliances</h6>
+        <div>
+            <input type="checkbox" name = "appliances" id="tv" value="tv">
+            <label for="tv">Tv</label>
+        </div>
+        <div>
+            <input type="checkbox" name = "appliances" id="fridge" value="fridge">
+            <label for="tv">Fridge</label>
+        </div>
+        <div>
+            <input type="radio" name="gender" id="male" value="male">
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="female" value="female">
+            <label for="female">Female</label>
+            
+        </div>
+
+
+
+    </form>
+    <script>
+        let appliances = document.getElementsByName('appliances')
+        console.log('appliances')
+        let gender = document.getElementsByName('gender')
+        console.log('gender')
+    </script>
+</body>
+</html>
